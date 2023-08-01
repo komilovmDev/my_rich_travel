@@ -1,0 +1,34 @@
+.services {
+    width: 100%;
+    padding: 120px 150px;
+    background: #D9ED82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+
+.services .servicesCard {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 21px;
+}
+
+.services .servicesCard span {
+    color: #112F38;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.services .servicesCard p {
+    color: #112F38;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
