@@ -1,0 +1,89 @@
+.pl {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10%;
+    margin: 99px 0px;
+    gap: 66px;
+}
+
+.plHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.plHeader h5 {
+    font-size: 20px;
+}
+
+.plHeader h2 {
+    font-size: 42px;
+}
+
+
+.plMain {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plCard {
+    position: relative;
+    width: 327px;
+    height: 457px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.plCard:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.plCard::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.48%, #112F38 100%);
+    z-index: 1;
+    -webkit-box-shadow: 0px -42px 36px -8px  linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.48%, #112F38 100%);
+    -moz-box-shadow: 0px -42px 36px -8px  linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.48%, #112F38 100%);
+    box-shadow: 0px -42px 36px -8px linear-gradient(180deg, rgba(255, 255, 255, 0.00) 24.48%, #112F38 100%);
+    border-radius: 20px;
+}
+
+.plCard span {
+    font-size: 36px;
+    color: white;
+    z-index: 2;
+}
+
+.plCard .flag {
+    display: flex;
+    gap: 5px;
+    z-index: 2;
+}
+
+.plCard .flag span {
+    font-size: 18px;
+    z-index: 2;
+}
+
+.plCard p {
+    color: white;
+    z-index: 2;
+}

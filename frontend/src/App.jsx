@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './Header'
+import Pl from './companets/popularLocation/Pl'
 import Services from './companets/services/Services.jsx'
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
         <>
             <Header />
             <Services />
+            <Pl />
         </>
     )
 }
