@@ -1,0 +1,53 @@
+.tur {
+    padding: 0 10%;
+    margin: 100px 0;
+    background-color: #D9ED82;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.turTitle {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.turCards {
+    display: flex;
+    margin-bottom: 100px;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.turCards .turCrad {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+}
+
+.turCards .turCrad button {
+    border-radius: 50%;
+    background-color: #000000;
+    border: none;
+}
+
+.turCards .turCrad button img {
+    width: 60px;
+    height: auto;
+}
+
+.turCards .turCrad .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.turCards .turCrad .texts h3 {
+    font-size: 26px;
+}
+
+.turCards .turCrad .texts p {
+    font-size: 18px;
+}
